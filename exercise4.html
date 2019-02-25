@@ -3,9 +3,17 @@
 
   <head>
 
-	<link href="../css/ex4style.css"
-				rel="stylesheet"
-				type="text/css"/>
+    <style>
+        p {
+        
+        border-style: solid;
+        font-size: 42pt;
+        padding-left: 500px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+    </style>
 
 		<script type="text/javascript"
 				src="manipulation.js">
@@ -14,3 +22,48 @@
     <title>CSS Manipulation</title>
     
   </head>
+
+  <body>
+    <p id = "dummyText">
+            <!-- <img src = "pokeball.jpg" id = "pokeball" width = 300 height = 300> -->
+            CSS Manipulation
+    </p>
+
+    <center>
+        <form action="">
+                Border:
+                <br>
+                Enter color values in RGB (0-255):
+                <br>
+                Red:
+                <input type="text" name="red" id="r">
+                
+                Green:
+                <input type="text" name="green" id="g">
+                
+                Blue:
+                <input type="text" name="blue" id="b">
+                
+                Width:
+                <input type="text" name="width" id="w">
+                <br>
+            
+                <br><br>
+                Background Color:
+                <br>
+                Enter color values in RGB (0-255):
+                <br>
+                Red:
+                <input type="text" name="redb" id="rb">
+                Green:
+                <input type="text" name="greenb" id="gb">
+                Blue:
+                <input type="text" name="blueb" id="bb">
+                <br><br>
+            
+                
+                </form>
+
+                <button onclick="update(r, g, b, w, rb, gb, bb)">Update!</button>
+    </center>
+  </body>

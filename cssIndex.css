@@ -1,0 +1,55 @@
+p {
+	color: white;
+    font-size: 16pt;
+	font-weight: bold;
+
+}
+
+body {
+    padding-top: 200px;
+    font-family: Arial;
+    background-color: black;
+    background-image: url(https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/09/11/15/galaxy-2643089-1920.jpg?w968);
+    background-size: 100%;
+
+}
+
+a {
+	color: #99ccff;
+}
+
+a.favSites {
+	font-size: 20pt;
+	line-height: 50px;
+
+}
+
+a:hover {
+	color: white;
+
+}
+
+img {
+	float: left;
+
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+h1 {
+	color: white;
+	font-size: 40pt;
+
+}
+
+h2 {
+	color: white;
+	font-size: 25pt;
+}
+
+h3 {
+    color: white;
+    font-size: 20pt;
+}
